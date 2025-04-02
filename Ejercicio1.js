@@ -4,15 +4,17 @@ invitados.add("Nicolas")
 invitados.add("Danilo")
 invitados.add("Carlos")
 invitados.add("Diego")
-console.log(invitados)
 function agregarInvitado(nombre) {
     return invitados.add(nombre)
 }
-console.log(agregarInvitado("Daniel"))
+agregarInvitado("Daniel")
 
 function eliminarInvitado(nombre) {
     return invitados.delete(nombre)
 }
-
 eliminarInvitado("Nicolas")
-console.log(invitados)
+
+function mostrarInvitados() {
+    return console.log(invitados)
+}
+mostrarInvitados()
