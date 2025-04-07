@@ -1,4 +1,4 @@
-// 2. Crea un programa que genere un conjunto de números aleatorios 
+// 2. Crea un programa que genere un conjunto de números aleatorios.
 // únicos entre 1 y 100. El tamaño del conjunto será determinado por el usuario.
 
 let min = Number(prompt("Ingrese un numero (minimo):",10))
