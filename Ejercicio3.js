@@ -21,7 +21,20 @@ if(Comparar){
 }else{
     console.log("Las personas son diferentes.")
 }
-let Comparar =(JSON.stringify(persona1) === JSON.stringify(persona2));
+
+let CompararNombres =(JSON.stringify(persona1.nombre) === JSON.stringify(persona2.nombre));
+if(CompararNombres){
+    console.log("Las personas tienen nombres iguales.")
+}else{
+    console.log("Las personas tienen nombres diferentes.")
+}
+
+let CompararEdad =(JSON.stringify(persona1.edad) === JSON.stringify(persona2.edad));
+if(CompararEdad){
+    console.log("Las personas tienen la misma edad.")
+}else{
+    console.log("Las personas tienen edad diferente.")
+}let Comparar =(JSON.stringify(persona1) === JSON.stringify(persona2));
 if(Comparar){
     console.log("Las personas son iguales.")
 }else{
